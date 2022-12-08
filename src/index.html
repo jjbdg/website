@@ -118,6 +118,60 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
+           <!-- Notice: each .row is a project -->
+           <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">So You Think Ants Can Dance</h3>
+                <div>
+                  <p class="mb-4">
+                    These dancing ants were animated with TypeScript using data from the Carnegie Mellon motion capture database. 
+                    The mocap data was used to create a looping animation that smoothly interpolates between the beginning
+                    and end of the motion clip then overlayed onto the character at runtime. The pair of ant dancers perform 
+                    a salsa loop while the lone ant dancer performs various ballet moves. There are five different ballet techniques
+                    that can be chosen from with the click of a button. The database also provided bone skeleton information which was 
+                    used to form the scene hierarchy needed to create the necessary geometry for the animated characters. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://csci-4611-fall-2022.github.io/assignment-4-jjbdg/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/CSCI-4611-Fall-2022/assignment-4-jjbdg"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/dancingants.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -230,22 +284,21 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">So You Think Ants Can Dance</h3>
+                <h3 class="project-wrapper__text-title">Artistic Rendering with Shaders</h3>
                 <div>
                   <p class="mb-4">
-                    These dancing ants were animated with TypeScript using data from the Carnegie Mellon motion capture database. 
-                    The mocap data was used to create a looping animation that smoothly interpolates between the beginning
-                    and end of the motion clip then overlayed onto the character at runtime. The pair of ant dancers perform 
-                    a salsa loop while the lone ant dancer performs various ballet moves. There are five different ballet techniques
-                    that can be chosen from with the click of a button. The database also provided bone skeleton information which was used to form the scene hierarchy needed to create 
-                    the necessary geometry for the animated characters. 
+                    GLSL shaders make it possible to create awesome lighting effects in real-time computer graphics. 
+                    These effects can range from photorealistic lighting, like the bunny made of gravel seen below, 
+                    to artistically inspired non-photorealistic rendering, like the cartoon bunny. This shader program, 
+                    written in OpenGL, uses per-pixel lighting and normals as well as silhouettes to experiment with different shading 
+                    styles and texture materials.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://csci-4611-fall-2022.github.io/assignment-4-jjbdg/"
+                  href="https://csci-4611-fall-2022.github.io/assignment-5-jjbdg/"
                 >
                   See Live
                 </a>
@@ -253,7 +306,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/CSCI-4611-Fall-2022/assignment-4-jjbdg"
+                  href="https://github.com/CSCI-4611-Fall-2022/assignment-5-jjbdg"
                 >
                   Source Code
                 </a>
@@ -272,7 +325,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/dancingants.png"
+                      src="assets/shaderbunnies.png"
                     />
                   </div>
                 </a>
@@ -280,6 +333,46 @@
             </div>
           </div>
           <!-- /END Project -->
+
+           <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Baby Piano</h3>
+                <div>
+                  <p class="mb-4">
+                    A PIC24FJ64GA002 microcontroller was used to simulate a single octave piano in C. 
+                    A 4x4 keypad was used to either input a note or play a built-in tune which 
+                    would be played through the speaker while also changing the color of the iLED. 
+                    Each key of the keypad corresponded to a different note and a single note in the 
+                    scale or a built-in tune like the theme from Hawaii Five-O, Wonderwall by Oasis 
+                    or the Rainbow Connection from The Muppet Movie. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/babypiano.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+         
         </div>
       </div>
     </section>
