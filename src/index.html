@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[JD] | Dev&Research</title>
+    <title>JasmineDeGuzman</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="jjbdg, graphics, XR" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Jasmine DeGuzman] | Developer" />
+    <meta name="description" content="Jasmine Joyce DeGuzman" />
 
     <link
       rel="stylesheet"
@@ -51,14 +51,13 @@
           I'm a Virtual Reality/Graphics Developer and Researcher.
         </h1>
         <p align = left>
-          What drives me is my passion for creating awesome experiences that people can enjoy and connect over.
-          I love the immersive aspect of computer graphics and virtual reality along with  how it is used as an interactive 
-          storytelling medium. 
+          I am driven by my passion for building interactive experiences that create joy and connection between people.
+          I love the immersive aspect of computer graphics and virtual reality along with how they are exciting storytelling mediums. 
         </p>
         
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Want to hear more?</a
+            >See what I've been working on!</a
           >
         </p>
       </div>
@@ -91,24 +90,27 @@
                 Currently, I am an Undergraduate Research Fellow funded by the National Science Foundation's Research Experiences for Undergraduates program.
                 I am advised by Dr. Evan Suma Rosenberg in the Illusioneering Lab at the University of Minnesota. We investigate immersive user interfaces, 
                 such as virtual and augmented reality, with a focus in perception, interaction and immersion. 
-                My research interests include Cybersickness in VR as well as Virtual Locomotion and Redirected Walking.
-                Over the last two summers I have interned for Xbox, working on projects ranging
-                from Services and Operations to Accessibility Compliance.
+                My research interests include Cybersickness in VR, Virtual Locomotion and Redirected Walking, as well as Accessibility in VR.
+              </p>
+              <p class="about-wrapper__info-text">
+                Over the last three summers I have interned for Xbox, working on projects ranging
+                from Services and Operations, Accessibility Compliance, and Content Moderation. 
+                Many of these projects have involved applying AI and machine learning in a Gaming context.
               </p>
               <p class="about-wrapper__info-text">In addition to my work experience, some of my notable coursework
                 includes: Fundamentals of Computer Graphics, Programming Interactive Computer Graphics and Games, Computer Architecture and
-                Machine Organization, Introduction to Operating Systems, Introduction to Artificial Intelligence, Differential Equations 
-                and Linear Algebra, and Elementary Linear Algebra.
+                Machine Organization, Introduction to Operating Systems, Introduction to Artificial Intelligence, and Differential Equations 
+                and Linear Algebra.
               </p>
               <p class="about-wrapper__info-text">
-                When I'm not programming, I love rock climbing, skiing, playing ukulele and trying new recipes.
+                When I'm not programming, I love rock climbing, skiing, playing ukulele and dissecting movies!
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/ResumeJJBDG.pdf"
+                  href="assets/JasmineDeGuzmanResumeFall23.pdf"
                 >
                   View Resume
                 </a>
@@ -124,7 +126,61 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Projects and Research</h2>
+
+            <!-- Notice: each .row is a project -->
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Virtual Reality on a SWIM: Scalable World in Miniature</h3>
+                  <div>
+                    <p class="mb-4">
+                      The Scalable World in Miniature was developed and published as part of the 3D User Interfaces Contest at the 
+                      2022 IEEE Virtual Reality and 3D User Interfaces Conference in Christchurch, New Zealand.
+                      The SWIM is an extension of the well-known World-in-Miniature metaphor that 
+                      enables independent scaling of objects and finer control across a spectrum of object sizes. 
+                      It was developed with Unity 2021 on the Oculus Quest, desgined for any general VR system. 
+                    </p>
+                  </div>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="assets/Virtual_Reality_on_a_SWIM_Scalable_World_in_Miniature.pdf"
+                  >
+                    See Paper
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn text-color-main"
+                    href="https://github.com/jjbdg/SWIM"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="#!" target="_blank">
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                    >
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/images/fullteaserimage.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- /END Project -->
 
            <!-- Notice: each .row is a project -->
            <div class="row">
@@ -190,11 +246,11 @@
                   <p class="mb-4">
                     This project uses ray casting to implement the magic of Harold's purple crayon from the 1955 children's book 
                     "Harold and the Purple Crayon" by Crockett Johnson and the 2000 ACM NPAR paper "Harold: A World Made of Drawings"
-                     by Cohen et al . The conversion of 2D screen coordinates to the 3D virtual
+                     by Cohen et al. The conversion of 2D screen coordinates to the 3D virtual
                      world is done using pick rays and intersection tests. Drawing in the sky can be done by clicking and dragging 
                      the mouse through the sky and billboards can be created by clicking and dragging the mouse from the ground to 
                      the sky. The ground mesh can even be edited to create hills and valleys by clicking and dragging your mouse along 
-                     the ground. Change the view of the camera by right-clicking and dragging the mouse.
+                     the ground. Change the view of the camera by right-clicking and dragging the mouse. Walk around in the environment using the WASD keys.
                   </p>
                 </div>
                 <a
@@ -344,61 +400,6 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Space Minesweeper</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a simple, fun game called Space Minesweeper that uses 2D graphics and TypeScript.
-                    The stars move in the opposite direction of the ship at a velocity dependent on each star's size in order
-                    to create the illusion that the ship is moving. The mine movement is done in a similar way of having the 
-                    mines move in the opposite of the ship direction to create the illusion that they are moving closer to the ship.
-                    The ship can shoot lasers at the mines as a way to defend itself. When a laser intersects with a mine, it causes
-                    the mine to explode and both the mine and laser are removed from the scene.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://csci-4611-fall-2022.github.io/assignment-1-jjbdg/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/jjbdg/SpaceMinesweeper"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/images/spacesweeper.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
         </div>
       </div>
     </section>
@@ -409,7 +410,7 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">I'd love to connect :)) </p>
+          <p class="contact-wrapper__text">I'd love to connect (•◡•) / </p>
           <a
             rel="noreferrer"
             target="_blank"
