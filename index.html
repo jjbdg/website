@@ -1,0 +1,487 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>JasmineDeGuzman</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="jjbdg, graphics, XR" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Jasmine Joyce DeGuzman Personal Website" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi there! I'm <span class="text-color-main">Jaz :)</span>
+          <br />
+          I'm a Virtual Reality and Computer Graphics Researcher.
+        </h1>
+        <p class=hero-cta load-hidden" align=left>
+          I'm driven by my passion for building interactive experiences that create joy and connection between people. <br>
+          I love the immersive aspect of computer graphics and virtual reality along with how they are exciting storytelling mediums. 
+        </p>
+        
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >See what I've been working on!</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/images/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a Jersey girl a bit of a ways from home, finding ways to use tech to create cool experiences.
+                Currently I'm based in Minnesota, studying Computer Science and Asian and Middle Eastern Studies
+                at the University of Minnesota.
+              </p>
+              <p class="about-wrapper__info-text">
+                I'm an Undergraduate Research Fellow funded by the National Science Foundation's Research Experiences for Undergraduates program.
+                I'm advised by Dr. Evan Suma Rosenberg in the Illusioneering Lab.
+                My research interests involve using virtual reality to explore how people understand and process information. 
+              </p>
+              <p class="about-wrapper__info-text">
+                I've spent three summers interning for Xbox working on projects ranging
+                from Services and Operations, to Accessibility Compliance, as well as Safety and Content Moderation. 
+                Many of these projects have involved applying AI and machine learning in a Gaming context.
+              </p>
+              <p class="about-wrapper__info-text">
+                When I'm not programming, I love rock climbing, skiing, playing ukulele, and watching movies!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/documents/JasmineDeGuzmanCVF23.pdf"
+                >
+                  Curriculum Vitae
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** RESEARCH Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Research</h2>
+
+          <!-- start project -->
+          <div class="row">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Postural Instability and Motion Sickness in Video Games</h3>
+              <div>
+                <p class="mb-4">
+                  This project is an exploration of what type of movements precede motion sickness and how these relations are 
+                  affected by exposure to virtual reality and video games. As part of this work, I managed the data collection and 
+                  Simulator Sickness data analysis on a study with 50+ participants.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end project -->
+
+          <!-- start project -->
+          <div class="row">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Virtual Reality on a SWIM: Scalable World in Miniature</h3>
+              <div>
+                <p class="mb-4">
+                  The Scalable World in Miniature was developed and published as part of the 3D User Interfaces Contest at the 
+                  2022 IEEE Virtual Reality and 3D User Interfaces Conference in Christchurch, New Zealand.
+                  The SWIM is an extension of the well-known World-in-Miniature metaphor that 
+                  enables independent scaling of objects and finer control across a spectrum of object sizes. 
+                  It was developed with Unity 2021 on the Oculus Quest, designed for any general VR system. 
+                </p>
+              </div>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="assets/documents/Virtual_Reality_on_a_SWIM_Scalable_World_in_Miniature.pdf"
+              >
+                See Paper
+              </a>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/jjbdg/SWIM"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <!-- end project -->
+
+        </div>
+      </div>
+    </section>    
+    <!-- /END Research Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">A Peek Behind the Curtain</h3>
+                <div>
+                  <p class="mb-4">
+                    This cloth simulation was implemented in Processing by using a mass-spring approach that binds together individual ropes with horizontal springs.
+                    It uses a combination of position-based dynamics and Hooke's Law to animate the cloth movement. The curtain of chained nodes interacts with a floating balle
+                    as it swings back and forth. Users can interact with the cloth by clicking and dragging their mouse across cloth as if it were a curtain. This simulation
+                    also uses self-collisions to simulate more realistic cloth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <video
+                      alt="Project Image"
+                      width="800"
+                      height="400"
+                      controls
+                    > 
+                    <source src="assets/videos/updatedClothSim.mp4" type="video/mp4">
+                    Your browser does not support this video :(
+                </video>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+           <!-- Notice: each .row is a project -->
+           <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Hey, I'm Walking Here >_></h3>
+                <div>
+                  <p class="mb-4">
+                    This crowd simulation made in Processing features a single agent (red) trying to cross a busy sidewalk filled with other pedestrians.
+                    The crowd of pedestrians was creating using a flock of boids. The agent uses the anticipatory avoidance method of Time to Collision
+                    in order to avoid bumping into anyone.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <video
+                      alt="Project Image"
+                      width="800"
+                      height="400"
+                      controls
+                    > 
+                    <source src="assets/videos/CrowdSimulation.mp4" type="video/mp4">
+                    Your browser does not support this video :(
+                </video>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Multithreaded HTTP Server</h3>
+                <div>
+                  <p class="mb-4">
+                    This simple HTTP server communicates the contents of files stored on the local disk using TCP sockets. It parses incoming client HTTP requests, and then 
+                    replies with valid HTTP responses.
+                    Its multi-threaded functionality uses a thread pool paradigm to create a fixed-size collection of threads that are each capable of interacting with the one client. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      width="400"
+                      height="800"
+                      src="assets/images/ocelot_server-1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Oh Dam Pinball Game</h3>
+                <div>
+                  <p class="mb-4">
+                    The theme of this pinball game made in Processing is to break the dam that these beavers have so painstakingly constructed.
+                    Break the dam by aiming for the diamond target at the center of the rock formation and earn points. 
+                    Players can unlock the multiball by collecting enough points. When a pinball is first made,
+                    there will be a trail of blue sparkles that follow it and then a trail of fire when the pinball is moving fast enough.
+                    Both of these features were created using particle systems. Flippers are controlled using the "F" and "J" keys. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      width="400"
+                      height="600"
+                      src="assets/images/pinball.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">A World Made of Drawings</h3>
+                <div>
+                  <p class="mb-4">
+                    This project uses ray casting to implement the magic of Harold's purple crayon from the 1955 children's book 
+                    "Harold and the Purple Crayon" by Crockett Johnson and the 2000 ACM NPAR paper "Harold: A World Made of Drawings"
+                     by Cohen et al. The conversion of 2D screen coordinates to the 3D virtual
+                     world is done using pick rays and intersection tests. Drawing in the sky can be done by clicking and dragging 
+                     the mouse through the sky and billboards can be created by clicking and dragging the mouse from the ground to 
+                     the sky. The ground mesh can even be edited to create hills and valleys by clicking and dragging your mouse along 
+                     the ground. Change the view of the camera by right-clicking and dragging the mouse. Walk around in the environment using the WASD keys.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      width="800"
+                      height="800"
+                      src="assets/images/harold.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+           <!-- Notice: each .row is a project -->
+           <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">So You Think Ants Can Dance</h3>
+                <div>
+                  <p class="mb-4">
+                    These dancing ants were animated with TypeScript using inverse kinematics and data from the Carnegie Mellon motion capture database. 
+                    The mocap data was used to create a looping animation that smoothly interpolates between the beginning
+                    and end of the motion clip then overlayed onto the character at runtime. The pair of ant dancers perform 
+                    a salsa loop while the lone ant dancer performs various ballet moves. There are five different ballet techniques
+                    that can be chosen from with the click of a button. The database also provided bone skeleton information which was 
+                    used to form the scene hierarchy needed to create the necessary geometry for the animated characters. 
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      width="700"
+                      height="800"
+                      src="assets/images/dancingants.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div> 
+          <!-- /END Project -->
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">I'd love to connect (•◡•) / </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:deguz033@umn.edu"
+            >Let's Chat</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <!-- <div class="container"> -->
+        <!-- <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>  -->
+        <!-- <div class="social-links">
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noresferrer" href="#!" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>-->
+
+        <!-- <hr />  -->
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          Driven by passion <i class="fa fa-heart"></i> fueled by coffee <i class="fa fa-coffee"></i> <br>
+          © 2021 - Design based on Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
